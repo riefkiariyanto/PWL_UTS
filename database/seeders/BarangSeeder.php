@@ -16,7 +16,7 @@ class BarangSeeder extends Seeder
     {
         $data = array(
             [
-                'id' => 1,
+                'id_barang' => 1,
                 'kode_barang' => 'c1000',
                 'nama_barang' => 'Marjan',
                 'kategori_barang' =>'Minuman',
@@ -24,7 +24,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"79",
             ],
             [
-                'id' => 2,
+                'id_barang' => 2,
                 'kode_barang' => 'c1001',
                 'nama_barang' => 'Tanggo',
                 'kategori_barang' =>'Snack',
@@ -32,7 +32,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"666",
             ],
             [
-                'id' => 3,
+                'id_barang' => 3,
                 'kode_barang' => 'c1021',
                 'nama_barang' => 'Oreo',
                 'kategori_barang' =>'Snack',
@@ -40,7 +40,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"666",
             ],
             [
-                'id' => 4,
+                'id_barang' => 4,
                 'kode_barang' => 'c1098',
                 'nama_barang' => 'Nutrisari',
                 'kategori_barang' =>'Minuman',
@@ -48,7 +48,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"87",
             ],
             [
-                'id' => 5,
+                'id_barangd' => 5,
                 'kode_barang' => 'c1023',
                 'nama_barang' => 'Cocacola',
                 'kategori_barang' =>'Minuman',
@@ -56,7 +56,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"23",
             ],
             [
-                'id' => 6,
+                'id_barang' => 6,
                 'kode_barang' => 'c1333',
                 'nama_barang' => 'Indomie',
                 'kategori_barang' =>'Makanan',
@@ -64,7 +64,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"88",
             ],
             [
-                'id' => 7,
+                'id_barang' => 7,
                 'kode_barang' => 'c1043',
                 'nama_barang' => 'Sarimie',
                 'kategori_barang' =>'makanan',
@@ -72,7 +72,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"84",
             ],
             [
-                'id' => 8,
+                'id_barang' => 8,
                 'kode_barang' => 'c1211',
                 'nama_barang' => 'Pisau',
                 'kategori_barang' =>'alat',
@@ -80,7 +80,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"79",
             ],
             [
-                'id' => 9,
+                'id_barang' => 9,
                 'kode_barang' => 'c1031',
                 'nama_barang' => 'Sendok',
                 'kategori_barang' =>'alat',
@@ -88,7 +88,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"43",
             ],
             [
-                'id' => 10,
+                'id_barang' => 10,
                 'kode_barang' => 'c1344',
                 'nama_barang' => 'Sariroti',
                 'kategori_barang' =>'Makanan',
@@ -96,7 +96,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"10",
             ],
             [
-                'id' => 11,
+                'id_barang' => 11,
                 'kode_barang' => 'c1035',
                 'nama_barang' => 'Pocaris',
                 'kategori_barang' =>'Minuman',
@@ -104,7 +104,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"34",
             ],
             [
-                'id' => 12,
+                'id_barang' => 12,
                 'kode_barang' => 'c1055',
                 'nama_barang' => 'Yacult',
                 'kategori_barang' =>'Minuman',
@@ -112,7 +112,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"13",
             ],
             [
-                'id' => 13,
+                'id_barang' => 13,
                 'kode_barang' => 'c1043',
                 'nama_barang' => 'Chitato',
                 'kategori_barang' =>'Snack',
@@ -120,7 +120,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"41",
             ],
             [
-                'id' => 14,
+                'id_barang' => 14,
                 'kode_barang' => 'c1340',
                 'nama_barang' => 'Pepsi',
                 'kategori_barang' =>'Minuman',
@@ -128,7 +128,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"20",
             ],
             [
-                'id' => 15,
+                'id_barang' => 15,
                 'kode_barang' => 'c1450',
                 'nama_barang' => 'Beng beng',
                 'kategori_barang' =>'Scnak',
@@ -136,7 +136,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"42",
             ],
             [
-                'id' => 16,
+                'id_barang' => 16,
                 'kode_barang' => 'c1120',
                 'nama_barang' => 'Cheetos',
                 'kategori_barang' =>'Snack',
@@ -144,7 +144,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"39",
             ],
             [
-                'id' => 17,
+                'id_barang' => 17,
                 'kode_barang' => 'c1011',
                 'nama_barang' => 'gunting',
                 'kategori_barang' =>'Alat',
@@ -152,7 +152,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"14",
             ],
             [
-                'id' => 18,
+                'id_barang' => 18,
                 'kode_barang' => 'c1032',
                 'nama_barang' => 'garpu',
                 'kategori_barang' =>'Alat',
@@ -160,7 +160,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"19",
             ],
             [
-                'id' => 19,
+                'id_barang' => 19,
                 'kode_barang' => 'c1030',
                 'nama_barang' => 'sumpit',
                 'kategori_barang' =>'Alat',
@@ -168,7 +168,7 @@ class BarangSeeder extends Seeder
                 'qty' =>"11",
             ],
             [
-                'id' => 20,
+                'id_barang' => 20,
                 'kode_barang' => 'c1666',
                 'nama_barang' => 'Popmie',
                 'kategori_barang' =>'Makanan',
