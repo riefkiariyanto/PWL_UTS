@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BarangController;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,4 @@ use App\Http\Controllers\BarangController;
 */
 
 Route::resource('Barang', BarangController::class);
+Route::get('Barang/cari/',[BarangCOntroller::class, 'search']);
